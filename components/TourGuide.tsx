@@ -8,7 +8,7 @@ type Props = {
 };
 
 export default function TourGuide({ nearbyGuideId }: Props) {
-  const { scene } = useGLTF("/models/guy.glb");
+  const { scene } = useGLTF("/models/Guy.glb");
 
   return (
     <>
