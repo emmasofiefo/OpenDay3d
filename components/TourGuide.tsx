@@ -52,4 +52,4 @@ export default function TourGuide({ nearbyGuideId }: Props) {
   );
 }
 
-useGLTF.preload("/models/guy.glb");
+useGLTF.preload("/models/Guy.glb");
