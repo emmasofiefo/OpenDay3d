@@ -520,7 +520,7 @@ export default function OpenDayScene() {
       />
 
       <Canvas
-        camera={{ position: [0, 1.6, 8], fov: 75 }}
+        camera={{ position: [0, 1.6+6, 0], fov: 75 }}
         gl={{ antialias: true, alpha: false }}
         onCreated={({ gl }) => {
           gl.setClearColor("#0b263b");
